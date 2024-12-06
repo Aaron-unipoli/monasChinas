@@ -200,7 +200,7 @@
         $servidor = "localhost";
         $usuario = "root";
         $pass = "";
-        $base_de_datos = "monas_chinas";
+        $base_de_datos = "monas chinas";
 
         // Establecer la conexión con la base de datos
         $conn = new mysqli($servidor, $usuario, $pass, $base_de_datos);
