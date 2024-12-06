@@ -32,7 +32,7 @@
   opacity: 0;
   transition: opacity 0.3s ease;
   }
-
+/* Esto es nuevo comentario*/
   .img_sub_menu{
   margin: 0px;
 

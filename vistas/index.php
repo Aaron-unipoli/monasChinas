@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
 </head>
 <body>
+
   <style>
     .custom-menu-txt{
       font-size: 20px;
@@ -21,6 +22,7 @@
     #ficha{
       height: 150px;
     }
+    
     .texto_sub_menu {
   position: relative;
   z-index: 1;
