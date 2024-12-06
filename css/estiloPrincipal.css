@@ -109,6 +109,6 @@ opacity: 1; /* El texto aparece al hacer hover */
     object-fit: cover; /* Recortar la imagen si es necesario */
 }
 
-.tablas{
+td{
     border: #007bff 5px solid;
 }
