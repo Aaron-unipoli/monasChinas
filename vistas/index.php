@@ -4,124 +4,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>VsitaDgo</title>
+  <link href="css/estiloPrincipal.css" type="css/text">
   <!-- Enlace a Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
 </head>
 <body>
 
-  <style>
-    .custom-menu-txt{
-      font-size: 20px;
-    }
-    .custom-black {
-    background-color: rgb(252, 167, 232);
-    color: #ffffff !important; /* o background-color según el contexto */
-    
-    }
-    #ficha{
-      height: 150px;
-    }
-    
-    .texto_sub_menu {
-  position: relative;
-  z-index: 1;
-  color: white;
-  text-align: center;
-  padding-top: 65%;
-  font-size: 20px;
-  text-shadow: 2px 2px 3px black;
-  opacity: 0;
-  transition: opacity 0.3s ease;
-  }
-
-  .img_sub_menu{
-  margin: 0px;
-
-  height:900px ;
-  color: #ebebeb;
-  text-align: center;
-  padding-top: 78%;
-  text-shadow: 2px 2px 3px black;
-  font-size: large;
-
-}
-#img_sub_menu_1{
-  background-color: #365B2D;
-  background-image: url("../assets/img/nJ4EFJyO_o.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 800px;
-  display: flexbox;
-}
-
-
-#img_sub_menu_2{
-  background-color: #365B2D;
-  background-image: url("../assets/img/2a300371-2a70-45b2-9373-db6ada3f6d1f.499645feb9345eecc6265cc23b072b56.webp");
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 800px;
-}
-#img_sub_menu_3{
-  background-color: #365B2D;
-  background-image: url("../assets/img/items_1840633_826243_0_20180628140915_b.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 800px;
-}
-.hover-effect {
-  position: relative;
-  overflow: hidden;
-}
-
-.hover-effect::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0); /* Sin opacidad inicialmente */
-  transition: background-color 0.3s ease;
-  border-bottom: #218838;
-}
-
-.hover-effect:hover::before {
-  background-color: rgba(0, 0, 0, 0.7); /* Opacidad de color negro al hacer hover */
-}
-
-.texto_sub_menu {
-  position: relative;
-  z-index: 1; /* Para que el texto esté por encima de la capa negra */
-  color: white; /* Para que el texto sea visible sobre el fondo oscuro */
-  text-align:  center;
-  padding-top: 65%;
-  font-size: 20px;
-  text-shadow: 2px 2px 3px black;
-  opacity: 0; /* Oculta el texto inicialmente */
-  transition: opacity 0.3s ease; /* Suaviza la aparición del texto */
-}
-.hover-effect:hover .texto_sub_menu {
-  opacity: 1; /* El texto aparece al hacer hover */
-}
-.hover-effect:hover .btn_estilo {
-  opacity: 1; /* El texto aparece al hacer hover */
-}
-
-.custom-card {
-        width: 250px; /* Ancho fijo */
-        height: 400px; /* Alto fijo */
-        border: 1px solid #007bff; /* Borde azul de 2px */
-        border-radius: 10px; /* Bordes redondeados */
-        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Sombras opcionales */
-    }
-    .custom-card img {
-        max-height: 300px; /* Limitar la altura de la imagen */
-        object-fit: cover; /* Recortar la imagen si es necesario */
-    }
  
-  </style>
   
 
   <!-- Navbar -->
@@ -234,7 +124,7 @@
         $servidor = "localhost";
         $usuario = "root";
         $pass = "";
-        $base_de_datos = "monas_chinas";
+        $base_de_datos = "monas chinas";
 
         // Establecer la conexión con la base de datos
         $conn = new mysqli($servidor, $usuario, $pass, $base_de_datos);
