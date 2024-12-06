@@ -103,12 +103,17 @@ opacity: 1; /* El texto aparece al hacer hover */
     border: 1px solid #007bff; /* Borde azul de 2px */
     border-radius: 10px; /* Bordes redondeados */
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Sombras opcionales */
+    
 }
 .custom-card img {
     max-height: 300px; /* Limitar la altura de la imagen */
     object-fit: cover; /* Recortar la imagen si es necesario */
 }
 
-td{
-    border: #007bff 5px solid;
+
+.btn_estilo{
+  background-color: pink;
+  border: 0px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px black;
 }

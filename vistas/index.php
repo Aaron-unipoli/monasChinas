@@ -54,7 +54,7 @@
       </div>
     </div>
   </nav>
-
+  <br>
   
 
  
@@ -64,7 +64,7 @@
   <div class="container-fluid bg-dark">
     <div class="row g-0">
       <div class="col-lg-12">
-        <video controls width="100%" autoplay replay muted>
+        <video controls width="100%" autoplay muted>
           
           <source src="../assets/vid/y2mate.com-Nico-Nico-Nii-Remix_v720P.webm" type="video/webm">
           Tu navegador no soporta el elemento <video>.
@@ -83,6 +83,7 @@
             
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat natus laudantium delectus eum cupiditate provident, voluptatem incidunt? Iure quis tempore in deserunt recusandae quae, facere nisi, odio labore eveniet sequi. 
             <br>
+            <br>
             <button  class="btn_estilo" onclick="window.location.href='hospedaje.html';">Ver Detalles</button>
           </div>
           
@@ -94,6 +95,7 @@
             <h1>Figuras</h1>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat natus laudantium delectus eum cupiditate provident, voluptatem incidunt? Iure quis tempore in deserunt recusandae quae, facere nisi, odio labore eveniet sequi.
             <br>
+            <br>
             <button  class="btn_estilo" onclick="window.location.href='producto.php';">Ver Detalles</button>
           </div>
           
@@ -104,6 +106,7 @@
           <div class="texto_sub_menu">
             <h1>Playeras</h1>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat natus laudantium delectus eum cupiditate provident, voluptatem incidunt? Iure quis tempore in deserunt recusandae quae, facere nisi, odio labore eveniet sequi. 
+            <br>
             <br>
             <button  class="btn_estilo" onclick="window.location.href='comida.html';">Ver Detalles</button>
           </div>
