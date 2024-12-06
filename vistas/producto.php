@@ -190,11 +190,12 @@
   
 <br>
 <br>
-<div class="container border border-secundary ">
+<div class="container">
   <div class="row">
     <div class="col-md-12 ">
-    <table class="tablas">
+    <table>
     <thead>
+      
 
     </thead>
     <tbody >
