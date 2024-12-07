@@ -174,15 +174,15 @@
  
   <!-- Carrusel de productos destacados-->
   <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-inner">
+  <div class="carousel-inner" style="background-color:#808080;">
     <div class="carousel-item active" data-bs-interval="10000">
-      <img src="../assets/img/chunLiBikini.webp" class="d-block carousel-img " alt="..." >
+      <center><img src="../assets/img/chunLiBikini.webp" class="d-block carousel-img vh-100" alt="..." ></center>
     </div>
     <div class="carousel-item" data-bs-interval="2000">
-      <img src="../assets/img/cammyBikini.avif" class="d-block carousel-img" alt="..." >
+      <center><img src="../assets/img/cammyBikini.avif" class="d-block carousel-img vh-100" alt="..." ></center>
     </div>
     <div class="carousel-item">
-      <img src="../assets/img/hinata.png" class="d-block carousel-img " alt="...">
+      <center><img src="../assets/img/hinata.png" class="d-block carousel-img vh-100" alt="..."></center>
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">

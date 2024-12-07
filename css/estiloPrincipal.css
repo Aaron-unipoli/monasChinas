@@ -122,9 +122,13 @@ opacity: 1; /* El texto aparece al hacer hover */
   width: 100%; /* Cambia el tamaño al 50% del contenedor */
   height: 100%; /* Mantén la proporción de la imagen */
   margin: auto; /* Centra la imagen horizontalmente */
+  max-width: 100%; /* Para que la imagen no desborde */
+  max-height: 100%; /* Limita la altura para evitar desbordes */
+  object-fit: contain; /* Ajusta la imagen sin recortarla */
 }
 .carousel-item {
   display: flex;
   justify-content: center; /* Centrar horizontalmente */
   align-items: center;    /* Centrar verticalmente */
+  background-color: black;
 }
