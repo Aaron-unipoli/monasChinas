@@ -61,14 +61,26 @@
  
 
   <!-- Contenido de la página -->
-  <form action="#" method="POST">
+   <div class="container">
+    <div class="row bg-light">
+      <div class="col-xs-12">
+      <form action="#" method="POST">
   <div class="form-group">
-    <label for="exampleInputEmail1">Email address</label>
+    <h2 id="titulo-contacto">Contacto</h2>
+    <label for="exampleInputEmail1">Nombre</label>
     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
     <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
   </div>
   <div class="form-group">
-    <label for="exampleInputPassword1">Password</label>
+    <label for="exampleInputPassword1">apellido</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">email</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">telefono</label>
     <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
   </div>
   <div class="form-check">
@@ -77,6 +89,11 @@
   </div>
   <button type="submit" class="btn btn-primary">Submit</button>
 </form>
+
+      </div>
+    </div>
+   </div>
+  
  
    <br>
   <br><br><br><br><br><br><br><br><br><br><br>
