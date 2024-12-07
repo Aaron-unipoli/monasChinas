@@ -117,3 +117,14 @@ opacity: 1; /* El texto aparece al hacer hover */
   border-radius: 5px;
   box-shadow: 1px 1px 1px black;
 }
+
+.carousel-img {
+  width: 100%; /* Cambia el tamaño al 50% del contenedor */
+  height: 100%; /* Mantén la proporción de la imagen */
+  margin: auto; /* Centra la imagen horizontalmente */
+}
+.carousel-item {
+  display: flex;
+  justify-content: center; /* Centrar horizontalmente */
+  align-items: center;    /* Centrar verticalmente */
+}
