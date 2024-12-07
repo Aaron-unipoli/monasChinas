@@ -178,7 +178,7 @@
     <div class="carousel-item active" data-bs-interval="10000">
       <center><img src="../assets/img/chunLiBikini.webp" class="d-block carousel-img vh-100" alt="..." ></center>
     </div>
-    <div class="carousel-item" data-bs-interval="10000">
+    <div class="carousel-item" data-bs-interval="9000">
       <center><img src="../assets/img/cammyBikini.avif" class="d-block carousel-img vh-100" alt="..." ></center>
     </div>
     <div class="carousel-item" data-bs-interval="10000">
@@ -194,12 +194,12 @@
     <span class="visually-hidden">Next</span>
   </button>
 </div>
-
+<br>
   <!--Inicio de tabla de productos --> 
   <div class="container">
     <div class="row">
       <div class="col-md-12">
-      <table class="table">
+      <table class="table table-light border-top-0 rounded">
   <thead>
     <tr>
       <th scope="col"></th>
@@ -276,7 +276,7 @@
   
   
   
-  <hr class="featurette-divider">
+ 
   <!-- Footer -->
   <footer class=" text-white pt-4 custom-black">
     <div class="container-fluid">
@@ -288,7 +288,7 @@
             <li><a href="#" class="text-white">Inicio</a></li>
             <li><a href="#" class="text-white">Acerca de</a></li>
             <li><a href="#" class="text-white">Servicios</a></li>
-            <li><a href="#" class="text-white">Contacto</a></li>
+            <li><a href="contacto.php" class="text-white">Contacto</a></li>
           </ul>
         </div>
         
