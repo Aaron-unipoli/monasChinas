@@ -123,7 +123,7 @@
   
   
   <!--Zona articulos-->
-  Lo más HOT!!!
+  <h2>Lo más HOT!!!</h2>
   <hr>
   <div class="container">
     <div class="row">
@@ -169,12 +169,10 @@
               // Crear una columna para cada producto
               echo "
               <div class='col-md-4'>
-                  <div class='custom-card border-primary'>
+                  <div class='custom-card border-secudary'>
                       <img src='$img' alt='Imagen del producto' class='card-img-top'>
                       <div class='card-body'>
                           <h5 class='card-title'><b>$nombre</b></h5>
-                          
-                          <a href='#' class='btn btn-primary'>Ir a algún lugar</a>
                       </div>
                   </div>
               </div>";
