@@ -203,9 +203,8 @@
      <thead>
        <tr>
        <th scope="col"></th>
-       <th scope="col">nombre</th>
-       <th scope="col">Descripción</th>
-       <th scope="col">Precio</th>
+       <th scope="col"></th>
+       
     </tr>
   </thead>
   <tbody>
@@ -248,7 +247,7 @@
               $prec=$row["precio"];
       
               // Crear una columna para cada producto
-              echo "<tr><td scope='row'><img src='$img' class='img-fluid' width=350px></td><td>$nombre</td><td> $des</td><td>Pesos: $prec</td></tr>";
+              echo "<tr><td scope='row'><img src='$img' class='img-fluid' width=350px></td><td><br><div class='h2'>$nombre</div>...Precio:$  <b>$prec</b><p class=secudary>$des</p></td></tr>";
           }
       
           echo "</div>"; // Cierra la fila
