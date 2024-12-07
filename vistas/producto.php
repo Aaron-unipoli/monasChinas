@@ -178,10 +178,10 @@
     <div class="carousel-item active" data-bs-interval="10000">
       <center><img src="../assets/img/chunLiBikini.webp" class="d-block carousel-img vh-100" alt="..." ></center>
     </div>
-    <div class="carousel-item" data-bs-interval="2000">
+    <div class="carousel-item" data-bs-interval="10000">
       <center><img src="../assets/img/cammyBikini.avif" class="d-block carousel-img vh-100" alt="..." ></center>
     </div>
-    <div class="carousel-item">
+    <div class="carousel-item" data-bs-interval="10000">
       <center><img src="../assets/img/hinata.png" class="d-block carousel-img vh-100" alt="..."></center>
     </div>
   </div>
