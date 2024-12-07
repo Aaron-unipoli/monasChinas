@@ -169,7 +169,7 @@
   </nav>
 
   
-  <br>
+  <br><br><br>
   <!-- Contenido de la página -->
  
   <!-- Carrusel de productos destacados-->
