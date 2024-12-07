@@ -200,12 +200,12 @@
     <div class="row">
       <div class="col-md-12">
       <table class="table table-light border-top-0 rounded">
-  <thead>
-    <tr>
-      <th scope="col"></th>
-      <th scope="col">nombre</th>
-      <th scope="col">Descripción</th>
-      <th scope="col">Precio</th>
+     <thead>
+       <tr>
+       <th scope="col"></th>
+       <th scope="col">nombre</th>
+       <th scope="col">Descripción</th>
+       <th scope="col">Precio</th>
     </tr>
   </thead>
   <tbody>
@@ -237,8 +237,7 @@
                
         if ($consulta->num_rows > 0) {
           // Imprimir los resultados
-          echo "<div class='container-fluid'>";
-          echo "<div class='row'>";
+         
       
           while ($row = $consulta->fetch_assoc()) {
               // Extrae la información del producto
@@ -249,7 +248,7 @@
               $prec=$row["precio"];
       
               // Crear una columna para cada producto
-              echo "<tr><td scope='row'><img src='$img' width=350px></td><td>$nombre</td><td> $des</td><td>$prec</td></tr>";
+              echo "<tr><td scope='row'><img src='$img' class='img-fluid' width=350px></td><td>$nombre</td><td> $des</td><td>Pesos: $prec</td></tr>";
           }
       
           echo "</div>"; // Cierra la fila
