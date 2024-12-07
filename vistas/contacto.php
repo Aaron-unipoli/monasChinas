@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>VsitaDgo</title>
+  <title>Contacto</title>
   <link href="../css/estiloPrincipal.css" rel="stylesheet">
   
   <!-- Enlace a Bootstrap CSS -->
@@ -63,37 +63,40 @@
   <!-- Contenido de la página -->
    <div class="container">
     <div class="row bg-light">
-      <div class="col-xs-12">
+      <div class="col-xs-12  vh-75">
       <form action="#" method="POST">
   <div class="form-group">
     <h2 id="titulo-contacto">Contacto</h2>
-    <label for="exampleInputEmail1">Nombre</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+    <label for="nombre">Nombre</label>
+    <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Ingresa tu nombre">
   </div>
   <div class="form-group">
-    <label for="exampleInputPassword1">apellido</label>
-    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+    <label for="apellido">Apellido</label>
+    <input type="text" class="form-control" id="apellido" name="apellido" placeholder="Ingresa tu apellido">
   </div>
   <div class="form-group">
-    <label for="exampleInputPassword1">email</label>
-    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+    <label for="email">Email</label>
+    <input type="email" class="form-control" id="email" name="email" placeholder="Ingresa tu correo electrónico">
+    <small id="emailHelp" class="form-text text-muted">Nunca compartiremos tu correo con nadie más.</small>
   </div>
   <div class="form-group">
-    <label for="exampleInputPassword1">telefono</label>
-    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+    <label for="telefono">Teléfono</label>
+    <input type="tel" class="form-control" id="telefono" name="telefono" placeholder="Ingresa tu número de teléfono">
   </div>
   <div class="form-check">
-    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+    <input type="checkbox" class="form-check-input" id="terminos" name="terminos">
+    <label class="form-check-label" for="terminos">Acepto los términos y condiciones</label>
   </div>
-  <button type="submit" class="btn btn-primary">Submit</button>
+  <button type="submit" class="btn btn-primary">Enviar</button>
 </form>
+
+
 
       </div>
     </div>
    </div>
-  
+   <?php echo $_POST["name"]; ?><br>
+   Su email es: <?php echo $_POST["email"] ?>Su nombre es: <?php echo $_POST["nombre"]; ?>
  
    <br>
   <br><br><br><br><br><br><br><br><br><br><br>
