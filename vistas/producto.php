@@ -196,15 +196,16 @@
 </div>
 
   <!--Inicio de tabla de productos --> 
-<div class="container">
-  <div class="row">
-    <div class="col-md-12 ">
-    <table>
-    <thead>
-      
-
-    </thead>
-    <tbody >
+  <table class="table">
+  <thead>
+    <tr>
+      <th scope="col"></th>
+      <th scope="col">nombre</th>
+      <th scope="col">Descripción</th>
+      <th scope="col">Precio</th>
+    </tr>
+  </thead>
+  <tbody>
   <!-- Inicio del PHP que trae toda la info de los productos -->
       <?php 
         $servidor = "localhost";
@@ -245,7 +246,7 @@
               $prec=$row["precio"];
       
               // Crear una columna para cada producto
-              echo "<tr><td><img src='$img' width=350px></td><td>$nombre</td><td> $des</td><td>$prec</td></tr>";
+              echo "<tr><td scope='row'><img src='$img' width=350px></td><td>$nombre</td><td> $des</td><td>$prec</td></tr>";
           }
       
           echo "</div>"; // Cierra la fila
