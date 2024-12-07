@@ -123,7 +123,10 @@
   
   
   <!--Zona articulos-->
-    <div id="consulta-resultados">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+      <div id="consulta-resultados">
       <?php 
         $servidor = "localhost";
         $usuario = "root";
@@ -167,9 +170,9 @@
                   <div class='custom-card border-primary'>
                       <img src='$img' alt='Imagen del producto' class='card-img-top img-fluid'>
                       <div class='card-body'>
-                          <h5 class='card-title'>ID: $id</h5>
-                          <p class='card-text'>Nombre: $nombre</p>
-                          <p class='card-text'>Des:$des</p>
+                          <h5 class='card-title'>$nombre</h5>
+                          <p class='card-text'>$des</p>
+                          <a href='#' class='btn btn-primary'>Ir a algún lugar</a>
                       </div>
                   </div>
               </div>";
@@ -185,6 +188,12 @@
         // Cerrar la conexión
         $conn->close();
       ?>
+    </div>
+
+      </div>
+    </div>
+  </div>
+    
     
   <br>
   <hr class="featurette-divider">

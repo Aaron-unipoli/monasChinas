@@ -96,7 +96,7 @@
     </div>
    </div>
    <?php echo $_POST["name"]; ?><br>
-   Su email es: <?php echo $_POST["email"] ?>Su nombre es: <?php echo $_POST["nombre"]; ?>
+   Su email es: <?php echo $_POST["email"] ?> ||Su nombre es: <?php echo $_POST["nombre"]; ?>
  
    <br>
   <br><br><br><br><br><br><br><br><br><br><br>
