@@ -98,16 +98,37 @@ opacity: 1; /* El texto aparece al hacer hover */
 }
 
 .custom-card {
-    width: 250px; /* Ancho fijo */
-    height: 400px; /* Alto fijo */
-    border: 1px solid #007bff; /* Borde azul de 2px */
-    border-radius: 10px; /* Bordes redondeados */
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Sombras opcionales */
-    
+  width: 250px; /* Ancho fijo */
+  height: 350px; /* Altura fija para todas las tarjetas */
+  border: 1px solid #4d4d4d; /* Borde azul */
+  border-radius: 10px; /* Bordes redondeados */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Sombras */
+  display: flex; /* Usar flexbox para los elementos dentro de la tarjeta */
+  flex-direction: column; /* Los elementos dentro se alinean en columna */
+  overflow: hidden; /* Evita que el contenido se desborde */
 }
+
 .custom-card img {
-    max-height: 300px; /* Limitar la altura de la imagen */
-    object-fit: cover; /* Recortar la imagen si es necesario */
+  width: 100%; /* La imagen ocupa todo el ancho de la tarjeta */
+  height: 300px; /* Altura fija para la imagen */
+  object-fit: cover; /* Recorta la imagen si es necesario */
+}
+
+.custom-card .card-body {
+  padding: 15px; /* Espaciado dentro de la tarjeta */
+  display: flex;
+  flex-direction: column; /* Alinea el texto y el botón verticalmente */
+  justify-content: space-between; /* Distribuye el espacio entre el contenido */
+  height: calc(100% - 200px); /* Ocupa el espacio restante de la tarjeta */
+}
+
+.custom-card .card-title,
+.custom-card .card-text {
+  margin-bottom: 10px; /* Espaciado entre el título y el texto */
+}
+
+.custom-card .btn {
+  margin-top: auto; /* Asegura que el botón esté al final de la tarjeta */
 }
 
 

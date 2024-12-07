@@ -123,6 +123,8 @@
   
   
   <!--Zona articulos-->
+  Lo más HOT!!!
+  <hr>
   <div class="container">
     <div class="row">
       <div class="col-md-12">
@@ -168,10 +170,10 @@
               echo "
               <div class='col-md-4'>
                   <div class='custom-card border-primary'>
-                      <img src='$img' alt='Imagen del producto' class='card-img-top img-fluid'>
+                      <img src='$img' alt='Imagen del producto' class='card-img-top'>
                       <div class='card-body'>
-                          <h5 class='card-title'>$nombre</h5>
-                          <p class='card-text'>$des</p>
+                          <h5 class='card-title'><b>$nombre</b></h5>
+                          
                           <a href='#' class='btn btn-primary'>Ir a algún lugar</a>
                       </div>
                   </div>
