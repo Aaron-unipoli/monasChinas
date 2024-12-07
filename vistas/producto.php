@@ -131,7 +131,7 @@
   <!-- Navbar -->
   <nav class="navbar navbar-expand-lg navbar-dark custom-black custom-navbar custom-menu-txt fixed-top">
     <div class="container-fluid">
-      <a class="navbar-brand" href="index.php"><img src="../assets/img/logo.webp" alt="logo.jpg"width="20%"> </a>
+      <a class="navbar-brand" href="index.php"><img src="../assets/img/logo.webp" alt="logo.jpg"width="10%"> </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -169,27 +169,36 @@
   </nav>
 
   
-
+  <br>
+  <br>
  
 
   <!-- Contenido de la página -->
  
-  <div class="container-fluid bg-dark">
-    <div class="row g-0">
-      <div class="col-lg-12">
-        <video controls width="100%" autoplay replay muted>
-          
-          <source src="../assets/vid/y2mate.com-Nico-Nico-Nii-Remix_v720P.webm" type="video/webm">
-          Tu navegador no soporta el elemento <video>.
-        </video> 
-      </div>
+  <!-- Carrusel de productos destacados-->
+  <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="10000">
+      <img src="../assets/img/chunLiBikini.webp" class="d-block w-100" alt="...">
     </div>
-    
-    
+    <div class="carousel-item" data-bs-interval="2000">
+      <img src="../assets/img/cammyBikini.avif" class="d-block w-100" alt="..." width="50px" >
+    </div>
+    <div class="carousel-item">
+      <img src="../assets/img/hinata.png" class="d-block w-100" alt="...">
+    </div>
   </div>
-  
-<br>
-<br>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+  <!--Inicio de tabla de productos --> 
 <div class="container">
   <div class="row">
     <div class="col-md-12 ">
