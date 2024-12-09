@@ -210,7 +210,7 @@
             <li><a href="#" class="text-white">Inicio</a></li>
             <li><a href="#" class="text-white">Acerca de</a></li>
             <li><a href="#" class="text-white">Servicios</a></li>
-            <li><a href="contacto.php" class="text-white">Contacto</a></li>
+            <li><a href="vistas/contacto.php" class="text-white">Contacto</a></li>
           </ul>
         </div>
         
