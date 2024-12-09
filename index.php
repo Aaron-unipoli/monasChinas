@@ -98,7 +98,7 @@
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat natus laudantium delectus eum cupiditate provident, voluptatem incidunt? Iure quis tempore in deserunt recusandae quae, facere nisi, odio labore eveniet sequi.
             <br>
             <br>
-            <button  class="btn_estilo" onclick="window.location.href='producto.php';">Ver Detalles</button>
+            <button  class="btn_estilo" onclick="window.location.href='vistas/producto.php';">Ver Detalles</button>
           </div>
           
         </div>

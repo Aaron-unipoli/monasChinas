@@ -64,7 +64,7 @@
    <div class="container">
     <div class="row bg-light">
       <div class="col-xs-12  vh-75">
-      <form action="#" method="POST">
+      <form action="../controlador/js/modeloContacto.php" method="POST">
   <div class="form-group">
     <h2 id="titulo-contacto">Contacto</h2>
     <label for="nombre">Nombre</label>
@@ -95,8 +95,7 @@
       </div>
     </div>
    </div>
-   <?php echo $_POST["name"]; ?><br>
-   Su email es: <?php echo $_POST["email"] ?> ||Su nombre es: <?php echo $_POST["nombre"]; ?>
+   
  
    <br>
   <br><br><br><br><br><br><br><br><br><br><br>
