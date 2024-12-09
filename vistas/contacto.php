@@ -64,7 +64,7 @@
    <div class="container">
     <div class="row bg-light">
       <div class="col-xs-12  vh-75">
-      <form action="../controlador/js/modeloContacto.php" method="POST">
+      <form action="../controlador/modeloContacto.php" method="POST">
   <div class="form-group">
     <h2 id="titulo-contacto">Contacto</h2>
     <label for="nombre">Nombre</label>
@@ -83,10 +83,16 @@
     <label for="telefono">Teléfono</label>
     <input type="tel" class="form-control" id="telefono" name="telefono" placeholder="Ingresa tu número de teléfono">
   </div>
+  
+  <lable for="Genenro">Genero</lable>
+  <br>
+  <input type="radio" name="gender" value="female">Female
+  <input type="radio" name="gender" value="male">Male
   <div class="form-check">
     <input type="checkbox" class="form-check-input" id="terminos" name="terminos">
     <label class="form-check-label" for="terminos">Acepto los términos y condiciones</label>
   </div>
+  <br>
   <button type="submit" class="btn btn-primary">Enviar</button>
 </form>
 

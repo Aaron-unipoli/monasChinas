@@ -1,6 +1,6 @@
 <html>
    <body>
-      Hola: <?php  echo $_POST['name']?><br>
-      Su email es: <?php $_POST['email']?>
+      Hola: <?php  echo $_POST['nombre'];?><br>
+      Su email es: <?php  echo $_POST['email'];?>
    </body>
 </html>
