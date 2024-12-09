@@ -55,31 +55,25 @@
     </div>
   </nav>
   <br>
-  <br><br>
-  
-
-
- 
-
+  <br>
   <!-- Contenido de la página -->
- 
+    <!-- video niko niko ni -->
   <div class="container-fluid bg-dark">
     <div class="row g-0">
       <div class="col-lg-12">
         <video controls width="100%" autoplay muted>
           
-          <source src="../assets/vid/y2mate.com-Nico-Nico-Nii-Remix_v720P.webm" type="video/webm">
+          <source src="assets/vid/y2mate.com-Nico-Nico-Nii-Remix_v720P.webm" type="video/webm">
           Tu navegador no soporta el elemento <video>.
         </video> 
       </div>
     </div>
-    
-    
   </div>
+<!--Menú de imagenes grandes -->
   <div class="sub_menu">
     <div class="row g-0">
       <div class="col-lg-4">
-        <div id="img_sub_menu_1" class="hover-effect">
+        <div id="img_sub_menu_1" class="hover-effect vh-100">
           <div class="texto_sub_menu">
             <h1>Mangas</h1>
             
@@ -92,7 +86,7 @@
         </div>
       </div>
       <div class="col-lg-4">
-        <div id="img_sub_menu_2" class="hover-effect">
+        <div id="img_sub_menu_2" class="hover-effect vh-100">
           <div class="texto_sub_menu">
             <h1>Figuras</h1>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat natus laudantium delectus eum cupiditate provident, voluptatem incidunt? Iure quis tempore in deserunt recusandae quae, facere nisi, odio labore eveniet sequi.
@@ -104,7 +98,7 @@
         </div>
       </div>
       <div class="col-lg-4">
-        <div id="img_sub_menu_3" class="hover-effect">
+        <div id="img_sub_menu_3" class="hover-effect vh-100">
           <div class="texto_sub_menu">
             <h1>Playeras</h1>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat natus laudantium delectus eum cupiditate provident, voluptatem incidunt? Iure quis tempore in deserunt recusandae quae, facere nisi, odio labore eveniet sequi. 
@@ -121,11 +115,8 @@
 
 <br>
 <br>
-
-  
-  
-  <!--Zona articulos-->
-  <h2>Lo más HOT!!!</h2>
+<!--Zona articulos-->
+  <p class="h2 secondary">Lo más HOT!!!</p>
   <hr>
   <div class="container">
     <div class="row">
@@ -198,7 +189,7 @@
     
     
   <br>
-  <hr class="featurette-divider">
+  
   <!-- Footer -->
   <footer class=" text-white pt-4 custom-black">
     <div class="container-fluid">
@@ -235,12 +226,6 @@
       </div>
     </div>
   </footer>
-   
-  
-
-  
-  
-
   <!-- Enlace a Bootstrap JavaScript -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
