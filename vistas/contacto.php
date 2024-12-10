@@ -12,6 +12,44 @@
 </head>
 <body>
 
+<?php
+$servidor = "localhost";
+$usuario = "root";
+$pass = "";
+$base_de_datos = "monas chinas";
+$id=$_GET['id'];
+
+// Establecer la conexión con la base de datos
+$conn = new mysqli($servidor, $usuario, $pass, $base_de_datos);
+
+// Verificar si la conexión fue exitosa
+if ($conn->connect_error) {
+    die("Error de conexión: " . $conn->connect_error); 
+}
+
+// Realizar la consulta SQL
+$consulta = $conn->query("INSERT INTO contacto (nombre,apellido,email,telefono)values('$nombre',' $apellido','$email','$telefono'");
+
+
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    $nombre = htmlspecialchars($_POST['nombre']);
+    $apellido = htmlspecialchars($_POST['apellido']);
+    $email = htmlspecialchars($_POST['email']);
+    $telefono = htmlspecialchars($_POST['telefono']);
+    $gender = htmlspecialchars($_POST['gender'] ?? ''); // Opcional
+    $terminos = isset($_POST['terminos']) ? 'Aceptado' : 'No aceptado';
+
+    // Aquí podrías procesar los datos, como guardarlos en una base de datos.
+    echo "Datos recibidos: <br>";
+    echo "Nombre: $nombre<br>";
+    echo "Apellido: $apellido<br>";
+    echo "Email: $email<br>";
+    echo "Teléfono: $telefono<br>";
+    echo "Género: $gender<br>";
+    echo "Términos: $terminos<br>";
+}
+?>
+
  
   
 
@@ -64,7 +102,7 @@
    <div class="container">
     <div class="row bg-light">
       <div class="col-xs-12  vh-75">
-      <form action="../controlador/modeloContacto.php" method="POST">
+      <form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" method="POST">
   <div class="form-group">
     <h2 id="titulo-contacto">Contacto</h2>
     <label for="nombre">Nombre</label>
